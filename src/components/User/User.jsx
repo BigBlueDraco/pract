@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'; 
-export const User = ({user: {name, email}}) =>{
-    
+export const User = ({user: {name, email}}) =>{  
     return (
         <>
             <p>Name: {name}</p>
